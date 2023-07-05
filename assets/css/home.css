@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.container h1{
+    text-align: center;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+.container form input{
+    font-size: 1rem;
+    border: 1px solid red;
+    margin-bottom: 1rem;
+    padding: 10px 15px;
+    border-radius: 0.8rem;
+    background: rgb(36,35,35);
+    color: white;
+}
+.container .addTask{
+    color: white;
+    background: red;
+    font-size: 1.2rem;
+    width: 200px;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    clip-path: polygon(100% 0, 100% 55%, 86% 100%, 0 100%, 0 100%, 0 0);
+}
+.container form a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 0.4rem;
+}
+
+/* ********* Task ********* */
+.accordion{
+    background: #000;
+}
+
+.delete-button{
+    color: white;
+    background: red;
+    font-size: 1rem;
+    width: 100px;
+    padding: 0.4rem 0.4rem;
+    cursor: pointer;
+    text-align: center;
+    clip-path: polygon(100% 0, 100% 55%, 86% 100%, 0 100%, 0 100%, 0 0);
+
+}
+.delete-button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ********Email********* */
+.container h1 span{
+    color: red;
+}
